@@ -1,14 +1,14 @@
-This document is the codebook for getting and cleaning data.
-Code book contains 68 columms for standard deviation and 
+### This document is the codebook for getting and cleaning data.
+#### Code book contains 68 columms for standard deviation and mean measurement
 
-
+```
 Subject:
-		   Type: integer
+	Type: integer
 	Description: 30 subject whcih are number 1 thru 30.
 
 Activity:
-			Type: Factor
-	 Description: Activity performed by subject which are "Walking", "WalkUpStairs",
+	Type: Factor
+	Description: Activity performed by subject which are "Walking", "WalkUpStairs",
 	             "WalkSownStairs", "sitting", "Standing" and "Laying"
 
 NOTE:				 
@@ -20,8 +20,8 @@ activity and each subject.
 timeBodyAccMean_Xaxis:
 timeBodyAccMean_Yaxis:
 timeBodyAccMean_Zaxis:
-			Type: numeric
-	 Description: Average reading of the Body 'time domain signal' accelerometer
+	Type: numeric
+	Description: Average reading of the Body 'time domain signal' accelerometer
 				  average reading about X-axis, Y-axis and Z-axis.
 
 timeBodyAccStd_Xaxis:
@@ -195,26 +195,27 @@ freqBodyAccJerkMagMean:
 				 magniture average.
 				 
 freqBodyAccJerkMagStd:
-		   Type: numeric
+	Type: numeric
 	Description: Average reading of the Body frequency of accelerometer jerl 
 				 magniture standard deviation.
 				 
 freqBodyGyroMagMean:
-		   Type: numeric
+	Type: numeric
 	Description: Average reading of the Body frequency of gyroscope magniture 
 			     average.
 				 
 freqBodyGyroMagStd:
-		   Type: numeric
+	Type: numeric
 	Description: Average reading of the Body frequency of gyroscope magniture 
 			     standard deviation.
 				 
 freqBodyGyroJerkMagMean:
-		   Type: numeric
+	Type: numeric
 	Description: Average reading of the Body frequency of gyroscope jerk 
 				 magniture mean.
 				 
 freqBodyGyroJerkMagStd:
-		   Type: numeric
+	Type: numeric
 	Description: Average reading of the Body frequency of gyroscope jerk 
 				 magniture standard deviation.
+```
