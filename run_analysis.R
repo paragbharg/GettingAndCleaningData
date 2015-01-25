@@ -1,7 +1,5 @@
 library(dplyr)
 
-setwd("C:/Users/Parag/coursera/3/UCI HAR Dataset")
-
 ## Step 1:
 ## Create a data.frame of test measuremnt and improve readability of label by 
 ## applying the following tranformation:
