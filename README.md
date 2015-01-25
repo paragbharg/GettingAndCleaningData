@@ -16,8 +16,8 @@ All the steps which is described below is numbered in the ‘run_analyis.R’ sc
 	i) removing ‘()-‘ characters.
 	ii) Fix error in label by removing by fixing ‘BodyBody’ -> ‘Body’
 	iii) Replace ‘f’ and ‘t’ if they are first character with ‘freq’ abnd ‘time’.
-	iv)  Replace ‘XYX’ character if they are the last character with ‘Xaxis’, ‘Yaxis’ ansd ‘Zaxis’ for  
-             better readability of column names.
+	iv)  Replace ‘XYX’ character if they are the last character with ‘Xaxis’, ‘Yaxis’ and
+             ‘Zaxis’ for better readability of column names.
 ```
 2) Read the subject data and label the columns.
 
